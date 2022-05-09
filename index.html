@@ -10,13 +10,17 @@
 <body>
     <h1>Roll the Bones!</h1>
     <h2>Pick your poison!</h2>
+    <div id="ResultArea">
+        
+    </div>
     <div class="d20Buttons">
-    <button id="d6">1d6</button><button id="d8">1d8</button>
-    <button id="d10">1d10</button><button id="d12">1d12</button><br>
-    <button id="d20">1d20</button><button id="d100">1d100</button>
-<input id="bonus1" class="bonus" type="NUMBER" min="-30" max="30"/>
+        <button id="d2" onclick="roll(2);">1d2</button><button id="d3" onclick="roll(3);">1d3</button><br>
+        <button id="d4" onclick="roll(4);">1d4</button>
+    <button id="d6" onclick="roll(6);">1d6</button><button id="d8" onclick="roll(8);">1d8</button>
+    <button id="d10" onclick="roll(10);">1d10</button><button id="d12" onclick="roll(12);">1d12</button><br>
+    <button id="d20" onclick="roll(20);">1d20</button><button id="d100" onclick="roll(100);">1d100</button>
 </div>
 <hr>
-<h1 id="result">Result:<span id="resultDisplay"></span></h1>
+<script src="app.js"></script>
 </body>
 </html>

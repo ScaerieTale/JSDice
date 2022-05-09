@@ -5,3 +5,4 @@ function roll(number) {
     result = Math.floor(result);
     document.getElementById("resultDisplay").innerHTML = result;
 }
+

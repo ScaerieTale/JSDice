@@ -15,10 +15,13 @@ h2 {
 h1, h2, h3 {
     padding: 5px;
     font-family: "serif";
-
-
 }
 
+#rules {
+    float: left;
+    position: relative;
+    font-size: 1.5em;
+}
 
 button {
 background: linear-gradient(0deg, #000, #500);
@@ -26,16 +29,22 @@ background: linear-gradient(0deg, #000, #500);
 border-style: solid;
 border-width: .1em;
 border-color: #666;
-font-size: 18px;
+font-size: 1.1em;
 font-style: bold;
 font-weight: 750;
+font-family: "sans";
+padding: 1em;
+margin: 1em;
 }
 
-.bonus {
-    width: 50px;
-    background-color: #700;
-    color:antiquewhite;
-    font-size: 18px;
-    font-family: serif;
-    padding:10px;
+
+.d20Buttons {
+position: absolute;
+
+}  
+
+#resultArea {
+float: right;
+position:relative;
+margin: auto;
 }

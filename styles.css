@@ -1,22 +1,11 @@
 body {
     background-color: transparent;
     color: #aef;
-    margin-left: 10%;
 }
 html {
 background: linear-gradient(45deg, black, #711);
 }
-img {
-    width: 1em;
-    padding-left: .05em;
-}
-#rules {
-    float: left;
-    position: relative;
-    font-size: 1.5em;
-    width: 50%;
-    background-color: transparent;
-}
+
 
 button {
 background: linear-gradient(0deg, #000, #500);
@@ -29,32 +18,30 @@ font-style: bold;
 font-weight: 750;
 font-family: "sans";
 padding: 1em;
-margin: 1em;
 }
 
 #resultDisplay {
-    
-    
+    background-image: url(diBackground.png);
+    background-size: 1.75em;
+    background-position: center;
+    background-repeat: no-repeat;
     font-size: 5em;
     border-color: #666;
     border: solid;
     border-width: 0.02em;
-    width: 2em;
-    height: 1.5em;
+    width: 3em;
+    height: 2.5em;
+    margin: auto;
+    padding: 0.5em;
 }
 
 .d20Buttons {
-position: absolute;
+margin-top: 1em;
 background: transparent;
 border: 1em;
 }  
 
-#resultArea {
-    float: right;
-    position:absolute;
-    margin-right: 10%;
-    margin-left: 20%;
-}
+
 .card {
     background-color: transparent;
     width: 50%;

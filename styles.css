@@ -4,6 +4,10 @@ body {
 }
 html {
 background: linear-gradient(45deg, black, #711);
+background-image: url(midnight.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
 
 

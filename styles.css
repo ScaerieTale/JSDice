@@ -1,26 +1,19 @@
-body, html {
+body {
+    background-color: transparent;
+    color: #aef;
+    margin-left: 10%;
+}
+html {
 background: linear-gradient(45deg, black, #711);
-color: antiquewhite;
-}
 
-h1{
-    font-size: 72px;
-    font-weight: 850;
-
-}
-h2 {
-    font-size: 42px;
-    font-weight:750;
-}
-h1, h2, h3 {
-    padding: 5px;
-    font-family: "serif";
 }
 
 #rules {
     float: left;
     position: relative;
     font-size: 1.5em;
+    width: 50%;
+    background-color: transparent;
 }
 
 button {
@@ -37,14 +30,28 @@ padding: 1em;
 margin: 1em;
 }
 
+#resultDisplay {
+font-size: 5em;
+border-color: #666;
+border: solid;
+border-width: 0.02em;
+width: 2em;
+height: 1.5em;
+}
 
 .d20Buttons {
 position: absolute;
-
+background: transparent;
+border: 1em;
 }  
 
 #resultArea {
-float: right;
-position:relative;
-margin: auto;
+ float: right;
+position:absolute;
+margin-right: 10%;
+margin-left: 20%;
+}
+.card {
+    background-color: transparent;
+    width: 50%;
 }

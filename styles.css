@@ -5,9 +5,11 @@ body {
 }
 html {
 background: linear-gradient(45deg, black, #711);
-
 }
-
+img {
+    width: 1em;
+    padding-left: .05em;
+}
 #rules {
     float: left;
     position: relative;
@@ -46,10 +48,11 @@ border: 1em;
 }  
 
 #resultArea {
- float: right;
-position:absolute;
-margin-right: 10%;
-margin-left: 20%;
+    background-image: "diBackground.png";
+    float: right;
+    position:absolute;
+    margin-right: 10%;
+    margin-left: 20%;
 }
 .card {
     background-color: transparent;

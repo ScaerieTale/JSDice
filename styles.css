@@ -1,14 +1,14 @@
 body {
     background-color: transparent;
     color: #aef;
+    margin-bottom: 2em;
 }
 html {
-background-image: url(midnight.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-background: linear-gradient(45deg, black, #711);
-
+    background-color: black;
+    background-image: url(midnight.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 

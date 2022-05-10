@@ -33,12 +33,14 @@ margin: 1em;
 }
 
 #resultDisplay {
-font-size: 5em;
-border-color: #666;
-border: solid;
-border-width: 0.02em;
-width: 2em;
-height: 1.5em;
+    
+    
+    font-size: 5em;
+    border-color: #666;
+    border: solid;
+    border-width: 0.02em;
+    width: 2em;
+    height: 1.5em;
 }
 
 .d20Buttons {
@@ -48,7 +50,6 @@ border: 1em;
 }  
 
 #resultArea {
-    background-image: "diBackground.png";
     float: right;
     position:absolute;
     margin-right: 10%;

@@ -7,19 +7,29 @@
     <meta meta name="description" content="A completely free and open source Virtual Dice app including 1d2, d3, d4, d6, d8, d10, d12, d20, and 2100!" />
     <meta name="keywords" content="dice, virtual dice, D&D, Pathfinder, D20, 1d2, 1d3, dd4, 1d6, 1d8, 1d10, 1d12, 1d20, 1d100, free, open source, javascript, simple, easy to use, online, free dice, dice game, DM tool, GM tool, tabletop, tabletop gaming, game, gaming, games" />
     <title>Virtual Dice on the Web</title>
+    <!-- Call Bootstrap 4 CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Call custom CSS -->
     <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <!-- Call Favicon (The image in your browser's tab next to the title :-) -->
     <link rel="shortcut icon" type="image/jpg" href="favicon.ico" />
 </head>
 <body>
     <div align="center">
     <h1>Roll the Bones!</h1>
+    <!-- Using the Bootstrap 4 'Card' class to 'rope off' the display area a bit and make it look nice by itself -->
     <div class="card" align="center" id="ResultArea">
         <h1 id="resultDisplay">
             
         </h1>
     </div>
-    <div class="d20Buttons">
+    <!-- As above, calling the container bootstrap class to segregate the buttons from the rest of the HTML a bit, and to make the area a bit more responsive to smaller screens -->
+
+    <div id="d20Buttons" class="container">
+
+
+        <!-- Unfortunately didn't know any better way to call the function 'roll()' in app.js than to just call it over and over again for each button.  Gave each button its own ID for potential future-proofing. -->
+
         <button id="d2" onclick="roll(2);">1d2</button>
         <button id="d3" onclick="roll(3);">1d3</button>
         <button id="d4" onclick="roll(4);">1d4</button>
@@ -31,7 +41,7 @@
     <button id="d100" onclick="roll(100);">1d100</button>
 </div>
 </div>
-
+<!-- My original plan was to add a "spin box" widget, a number entry box that would let the user automatically calculate bonuses (like bonus damage, saving throw, etc.).  Unfortunately JS kept throwing NaN errors at me, so that has to wait until I'm more experienced.  -->
 <script src="app.js"></script>
 </body>
 </html>

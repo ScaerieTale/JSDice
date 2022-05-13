@@ -10,9 +10,11 @@ html {
     background-size: stretch;
     background-repeat: no-repeat;
 }
+#bonus {
+    width:5em;
+}
 
-
-button {
+button, #bonus {
     color: #aef;
 
     background: linear-gradient(0deg, #000, #500);

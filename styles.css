@@ -54,3 +54,16 @@ button, #bonus {
     background-color: transparent;
     width: 50%;
 }
+
+@media (max-width: 633px)
+{
+    html {
+    background-size: fit;
+    }
+    }
+    button, #bonus {
+        padding: 0.25em;
+        margin: 0.5em;
+        font-size: 2.8em;
+    }
+}

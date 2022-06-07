@@ -11,7 +11,7 @@ html {
     background-repeat: no-repeat;
 }
 #bonus {
-    width:5em;
+    width:2.2em;
 }
 
 button, #bonus {
@@ -60,6 +60,12 @@ button, #bonus {
     html {
     background-size: fit;
     }
+    }
+
+    #description
+    {
+        margin: 0 30% 0 30%;
+        font-size: 1.3em;
     }
     button, #bonus {
         padding: 0.25em;

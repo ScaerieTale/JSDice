@@ -16,7 +16,8 @@
 </head>
 <body>
     <div align="center">
-    <h1>Roll the Bones!</h1>
+    <h2>Virtual d20</h2>
+    <p id ="description">For all your fantasy dice needs.  Simply add any bonuses or penalties using the dropdown, and let the app do the work! (coming soon: Multiple d6 options!)</p>
     <!-- Using the Bootstrap 4 'Card' class to 'rope off' the display area a bit and make it look nice by itself -->
     <div class="card" align="center" id="ResultArea">
         <h1 id="resultDisplay">
@@ -36,6 +37,7 @@
     <button id="d6" onclick="roll(6);">1d6</button><br />
     <button id="d8" onclick="roll(8);">1d8</button>
     <button id="d10" onclick="roll(10);">1d10</button>
+    <button id="d6x2" onclick="roll(6*2)">2d6</button>
     <button id="d12" onclick="roll(12);">1d12</button>
     <button id="d20" onclick="roll(20);">1d20</button>
     <button id="d100" onclick="roll(100);">1d100</button>

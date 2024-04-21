@@ -1,15 +1,9 @@
 body {
     background-color: transparent;
     color: #aef;
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
-html {
-    background-color: black;
-    background-image: url(midnight.png);
-    background-position: center;
-    background-size: stretch;
-    background-repeat: no-repeat;
-}
+
 #bonus {
     width:2.2em;
 }

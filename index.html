@@ -29,16 +29,16 @@
 
         <!-- Unfortunately didn't know any better way to call the function 'roll()' in app.js than to just call it over and over again for each button.  Gave each button its own ID for potential future-proofing. -->
 
-        <button id="d2" onclick="roll(2);">1d2</button>
-        <button id="d3" onclick="roll(3);">1d3</button>
-        <button id="d4" onclick="roll(4);">1d4</button>
-    <button id="d6" onclick="roll(6);">1d6</button><br />
-    <button id="d8" onclick="roll(8);">1d8</button>
-    <button id="d10" onclick="roll(10);">1d10</button>
-    <button id="d6x2" onclick="rollMult(2, 6)">2d6</button>
-    <button id="d12" onclick="roll(12);">1d12</button>
-    <button id="d20" onclick="roll(20);">1d20</button>
-    <button id="d100" onclick="roll(100);">1d100</button>
+        <button id="d2" onclick="displayRollResults(1, 2);">1d2</button>
+        <button id="d3" onclick="displayRollResults(1, 3);">1d3</button>
+        <button id="d4" onclick="displayRollResults(1, 4);">1d4</button>
+    <button id="d6" onclick="displayRollResults(1, 6);">1d6</button><br />
+    <button id="d8" onclick="displayRollResults(1, 8);">1d8</button>
+    <button id="d10" onclick="displayRollResults(1, 10);">1d10</button>
+    <button id="d6x2" onclick="displayRollResults(2, 6)">2d6</button>
+    <button id="d12" onclick="displayRollResults(1, 12);">1d12</button>
+    <button id="d20" onclick="displayRollResults(1, 20);">1d20</button>
+    <button id="d100" onclick="displayRollResults(1, 100);">1d100</button>
     <input id="bonus" type="number" min="-30" max="30" value="0">
 </div>
 </div>
